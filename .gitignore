@@ -1,0 +1,19 @@
+.venv
+.env
+
+# Ignore compiled Python files (automatically generated when running scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local notebook checkpoint states
+.ipynb_checkpoints/
+
+# Ignore any local text logs or temporary outputs you created
+output.txt
+*.log
+
+# Ignore OS-specific system noise files
+.DS_Store
+Thumbs.db
